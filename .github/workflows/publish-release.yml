@@ -27,4 +27,4 @@ jobs:
           gh release create "v$VERSION" release/turntapod.bin release/manifest.txt \
             --target "$GITHUB_SHA" --latest \
             --title "Turntapod $VERSION" \
-            --notes "Firmware $VERSION for the Turntapod turntable (code commit 6bc0eb1). Install it from the turntable's web page: Settings → Check for update."
+            --notes "Firmware $VERSION for the Turntapod turntable (code commit $(cat release/commit.txt 2>/dev/null || echo unknown)). Install it from the turntable's web page: Settings → Check for update."
