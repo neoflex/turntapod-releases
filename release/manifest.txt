@@ -1,4 +1,4 @@
-version=0.6.0
+version=0.7.0
 file=turntapod.bin
-size=1764688
-sha256=4a7dcb32a4cfcbed41265246879ea44b0f1632dace1d09510ff5af707750501c
+size=1807184
+sha256=4dae76afc862c58eb6f98732c84f5827d2af9cf2f3479da4b4afb2b29fa79e80
